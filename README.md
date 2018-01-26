@@ -3,7 +3,7 @@ Little script for building .pkg files
 
 To use this script you should:
 
-1. Place <b>bake.py</b> into the folder holding your <b>*.entitlements</b> and <b>*.app</b> files.
+1. Place <b>bake.py</b> into the folder holding your <b> *.entitlements</b> and <b> *.app</b> files.
 2. Make sure that your <b>*.app</b> file matches the name of your application (That you want to see in mac store).
 3. Have <b>Python</b> (3 or 2) installed on your mac. If you don't have - use Homebrew to install it (or in any other way).
 4. Have <b>Xcode</b> (better latest, but it is not very important)

@@ -3,18 +3,18 @@ Little script for building .pkg files
 
 To use this script you should:
 
-1. Place this bake.py into the folder holding your <mark>*.entitlements</mark> and <mark>*.app</mark> files.
-2. Make sure that your *.app file matches the name of your application (That you want to see in mac store).
-3. Have Python (3 or 2) installed on your mac. If you don't have - use Homebrew to install it (or in any other way).
-4. Have Xcode (better latest, but it is not very important)
+1. Place <b>bake.py</b> into the folder holding your <b>*.entitlements</b> and <b>*.app</b> files.
+2. Make sure that your <b>*.app</b> file matches the name of your application (That you want to see in mac store).
+3. Have <b>Python</b> (3 or 2) installed on your mac. If you don't have - use Homebrew to install it (or in any other way).
+4. Have <b>Xcode</b> (better latest, but it is not very important)
 
 To run this script:
 
 ```bash
 $ python bake.py --name "DEVELOPER'S NAME" --app "APP NAME" --entitlements "ENTITLEMENTS.entitlements"
 ```
-Here's the "APP NAME" should match the name (without .app) of your *.app file,
-"ENTITLEMENTS.entitlements" should match the name (with .entitlements) of your *.entitlements file.
+Here's the "APP NAME" should match the name (without <b>.app</b>) of your <b>*.app</b> file,
+"ENTITLEMENTS.entitlements" should match the name (with <b>.entitlements</b>) of your <b>*.entitlements</b> file.
 
 See --help for details:
 

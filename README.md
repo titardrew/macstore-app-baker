@@ -1,4 +1,4 @@
-# macstore_app_baker
+# macstore-app-baker
 Little script for building .pkg files
 
 To use this script you shold:

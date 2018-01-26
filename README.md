@@ -17,7 +17,7 @@ Here's the "APP NAME" should match the name (without .app) of your *.app file,
 
 See --help for details:
 
-```bash
+```
 usage: bake.py [-h] [-n NAME] [-a APP] [-e ENTITLEMENTS]
 
 Signs and builds the app.

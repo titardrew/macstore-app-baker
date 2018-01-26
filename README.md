@@ -29,7 +29,7 @@ optional arguments:
   -a APP, --app APP     Application name. 
                         (default: Football World Cup 2018 Russia)
   -e ENTITLEMENTS, --entitlements ENTITLEMENTS
-                        Entitlements filename. Type "gen" to set its value to output name without spaces. 
+                        Entitlements filename. Type "gen" to set its value to APP value without spaces. 
                         (default: FootballWorldCup2018Russia.entitlements)
 ```
 

@@ -1,7 +1,7 @@
 # macstore-app-baker
 Little script for building .pkg files
 
-To use this script you shold:
+To use this script you should:
 
 1. Place this bake.py into the folder holding your *.entitlements and *.app files.
 2. Make sure that your *.app file matches the name of your application (That you want to see in mac store).

@@ -13,8 +13,8 @@ To run this script:
 ```bash
 $ python bake.py --name "DEVELOPER'S NAME" --app "APP NAME" --entitlements "ENTITLEMENTS.entitlements"
 ```
-Here's the "APP NAME" should match the name (without <b>.app</b>) of your <b>*.app</b> file,
-"ENTITLEMENTS.entitlements" should match the name (with <b>.entitlements</b>) of your <b>*.entitlements</b> file.
+Here's the "APP NAME" should match the name (without <b>.app</b>) of your <b> *.app</b> file,
+"ENTITLEMENTS.entitlements" should match the name (with <b>.entitlements</b>) of your <b> *.entitlements</b> file.
 
 See --help for details:
 

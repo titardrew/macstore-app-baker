@@ -43,7 +43,7 @@ def sign(args):
 
 def build(args):
     """ Uses productbuild. """
-    command = 'productbuild --component {0}.app /Applications --sign "3rd Party Mac Developer Installer: {1}" "{0}.pkg"'
+    command = 'productbuild --component "{0}".app /Applications --sign "3rd Party Mac Developer Installer: {1}" "{0}.pkg"'
     command = command.format(args.app, args.name)
     print('$', command)
     process = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE, cwd=script_dir)
